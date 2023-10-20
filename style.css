@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main {
+  text-align: center;
+  width: 300px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+.social-box {
+  border-radius: 5px;
+  background-color: #58585899;
+  padding: 0px 10px;
+}
+
+.social-box img {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 8px 0;
+}
+
+.social-box .fb {
+  border-bottom: 5px solid rgb(48, 48, 246);
+}
+.social-box .tw {
+  border-bottom: 5px solid rgb(86, 120, 255);
+}
+.social-box .ap {
+  border-bottom: 5px solid rgb(197, 193, 202);
+}
+.social-box .gg {
+  border-bottom: 5px solid rgb(74, 199, 124);
+}
+.social-box .ig {
+  border-bottom: 5px solid rgb(255, 9, 157);
+}
+
+.line {
+  height: 1.5px;
+  background-color: #fff;
+  margin: 15px 20px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #58585899;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 8px;
+}
+
+form input {
+  background-color: black;
+  border: 0;
+  padding: 6px 0px 6px 12px;
+  margin-bottom: 6px;
+}
+
+form input::placeholder,
+main p,
+button {
+  font-size: x-small;
+}
+
+button {
+  width: 100px;
+  margin: 0 auto;
+  background-color: #27b652;
+  padding: 6px;
+  border-radius: 2px;
+  border: 0;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #208c40;
+}
+
+footer a {
+  font-size: small;
+  text-decoration: none;
+  margin-left: 20px;
+}
